@@ -13,7 +13,7 @@ function init() {
   const audioElement = document.querySelector("audio");
   const playButton = document.querySelector("button");
 
-  // Create a new instance of the JSConfetti library to be used later
+  // Create a new instance of the JSConfetti library
   const jsConfetti = new JSConfetti();
 
   // Set a flag to keep track if the audio can be played or not
